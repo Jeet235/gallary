@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.gallery {
+  max-width: 600px;
+  margin: auto;
+}
+
+.main-image img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #333;
+}
+
+.thumbnails {
+  margin-top: 10px;
+}
+
+.thumbnails img {
+  width: 150px;
+  margin: 5px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.thumbnails img:hover {
+  border-color: #333;
+}
